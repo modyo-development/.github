@@ -5,7 +5,7 @@ commitish: 'master'
 template: |
   ## What’s Changed
   $CHANGES
-  ## Our Contributors
+  ## Contributors
   $CONTRIBUTORS
 categories:
   - title: '🚀 Features'
