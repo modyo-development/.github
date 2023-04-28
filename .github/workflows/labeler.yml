@@ -1,0 +1,14 @@
+name: Add Labels to Pull Request
+
+on:
+  workflow_call:
+
+jobs:
+  labeler:
+    name: Labeler
+    runs-on: ubuntu-latest
+    steps:
+      - uses: fuxingloh/multi-labeler@v2
+        with:
+          config-repo: modyo-development/.github
+          config-path: .github/modyo-labeler.yml
